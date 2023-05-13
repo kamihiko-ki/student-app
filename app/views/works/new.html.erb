@@ -1,0 +1,42 @@
+<h1>レッスンレポート</h1>
+<div class="form-container">
+ <div class="form-block">
+  <p>一人目</p>
+   <%= form_with model: @work do |form| %>
+    <div class="field">
+     <%= form.label :student %>
+     <%= form.select :student, Work::STUDENTS %>
+    </div>
+     <div class="actions">
+      <%= form.submit %>
+     </div>
+  <% end %>
+ </div>
+
+  <div class="form-block">
+<p>二人目</p>
+<%= form_with model: @work do |form| %>
+  <div class="field">
+    <%= form.label :student %>
+    <%= form.select :student, Work::STUDENTS %>
+  </div>
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+ </div>
+
+ <div class="form-block">
+<p>三人目</p>
+<%= form_with model: @work do |form| %>
+  <div class="field">
+    <%= form.label :student %>
+    <%= form.select :student, Work::STUDENTS %>
+  </div>
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+ </div>
+
+</div>

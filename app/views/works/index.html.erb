@@ -1,0 +1,14 @@
+<h1>Works#index</h1>
+<p>Find me in app/views/works/index.html.erb</p>
+     <% @works.each do |work| %>
+        <div class="work-item">
+          
+          <section class="work-text">
+            <h3 class="work-text-heading"><%=  work.student %></h3>
+            <p class="work-date"><%= work.created_at %></p>
+          
+          </section>
+        </div>
+      <% end %>
+
+      

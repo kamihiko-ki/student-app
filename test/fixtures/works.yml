@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student: MyString
+  level: MyString
+  step: MyString
+  coach: MyString
+  mode: MyString
+  tachapter: MyString
+  coder: MyString
+  verjon: MyString
+  chapter: MyString
+  stage: MyString
+  try: MyString
+  result: MyString
+
+two:
+  student: MyString
+  level: MyString
+  step: MyString
+  coach: MyString
+  mode: MyString
+  tachapter: MyString
+  coder: MyString
+  verjon: MyString
+  chapter: MyString
+  stage: MyString
+  try: MyString
+  result: MyString
